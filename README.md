@@ -61,15 +61,17 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Вариант Б. Сборка «портативного» EXE (без Python)
-
+Вариант Б. Сборка «портативного» .exe выполните по очереди:
+Активация окружения
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.bat
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+Конвертация кода в .exe
+```powershell
 pip install pyinstaller
-
 pyinstaller --name "JSON Editor Pro" --noconsole --onefile `
   --collect-all PyQt5 `
   --add-data "ui\mainwindow.ui;ui" `
@@ -82,7 +84,7 @@ pyinstaller --name "JSON Editor Pro" --noconsole --onefile `
 
 Если EXE не стартует, попробуйте без `--onefile` (получится папка со всеми файлами):
 ```powershell
-pyinstaller --name "JSON Editor Pro" --noconsole --collect-all PyQt5 ^
+pyinstaller --name "JSON Editor Pro" --noconsole --collect-all PyQt5 `
   --add-data "ui\\mainwindow.ui;ui" --add-data "icons;icons" main.py
 ```
 
