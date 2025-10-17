@@ -1,0 +1,88 @@
+{
+  "project": {
+    "name": "JSON Editor Pro",
+    "version": "3.0.0",
+    "description": "Professional JSON editor with advanced features",
+    "author": {
+      "name": "Developer",
+      "email": "dev@example.com",
+      "role": "Full Stack Developer"
+    },
+    "features": [
+      "Syntax highlighting",
+      "Tree view visualization",
+      "Auto-validation",
+      "Format & Minify",
+      "Custom styling",
+      "Docker support"
+    ],
+    "technologies": {
+      "frontend": "PyQt5",
+      "language": "Python 3.12'",
+      "testing": "pytest",
+      "containerization": "Docker"
+    },
+    "stats": {
+      "lines_of_code": 650,
+      "test_coverage": 95.5,
+      "tests_count": 32,
+      "supported_formats": [
+        "pivo"
+      ]
+    },
+    "settings": {
+      "auto_validate": true,
+      "validation_delay_ms": 500,
+      "default_font": "Consolas",
+      "default_font_size": 12,
+      "max_file_size_mb": 100
+    },
+    "unicode_support": {
+      "russian": "Привет Мир! 🇷🇺",
+      "chinese": "你好世界 🇨🇳",
+      "japanese": "こんにちは世界 🇯🇵",
+      "emoji": "🚀💻🎉✨🔥⚡"
+    },
+    "nested_example": {
+      "level1": {
+        "level2": {
+          "level3": {
+            "level4": {
+              "message": "Deep nesting works perfectly!"
+            }
+          }
+        }
+      }
+    }
+  },
+  "use_cases": [
+    {
+      "id": 1,
+      "title": "Configuration Files",
+      "description": "Edit application config files",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "API Responses",
+      "description": "View and modify API responses",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Data Migration",
+      "description": "Transform data between systems",
+      "priority": "high"
+    }
+  ],
+  "metadata": {
+    "created": "2025-10-10T12:00:00",
+    "updated": "2025-10-10T12:00:01",
+    "is_template": true,
+    "tags": [
+      "example",
+      "sample",
+      "demo"
+    ]
+  }
+}

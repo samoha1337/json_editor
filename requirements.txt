@@ -1,0 +1,6 @@
+PyQt5>=5.15.10
+pathlib2>=2.3.7
+typing-extensions>=4.12.2
+pytest>=8.2.0
+pytest-sugar>=0.9.7
+pytest-clarity>=1.0.1
