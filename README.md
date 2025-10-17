@@ -70,11 +70,12 @@ pip install --upgrade pip
 pip install -r requirements.txt
 pip install pyinstaller
 
-pyinstaller --name "JSON Editor Pro" --noconsole --onefile ^
-  --collect-all PyQt5 ^
-  --add-data "ui\\mainwindow.ui;ui" ^
-  --add-data "icons;icons" ^
+pyinstaller --name "JSON Editor Pro" --noconsole --onefile `
+  --collect-all PyQt5 `
+  --add-data "ui\mainwindow.ui;ui" `
+  --add-data "icons;icons" `
   main.py
+
 ```
 
 Файл появится: `dist/JSON Editor Pro.exe` — запускайте двойным кликом.
