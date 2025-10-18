@@ -4,7 +4,7 @@
 
 Редактор JSON с деревом, подсветкой и проверкой данных.
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
